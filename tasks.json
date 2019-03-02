@@ -1,0 +1,68 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "dev",
+            "type": "shell",
+            "command": "gulp dev",
+            "group": "dev",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "gulp clean",
+            "group": "test",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+            }
+        },
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gulp build",
+            "group": "build",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+            }
+        },
+        {
+            "label": "libs",
+            "type": "shell",
+            "command": "gulp libs",
+            "group": "test",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+            }
+        },
+        {
+            "label": "cssmin",
+            "type": "shell",
+            "command": "gulp cssmin",
+            "group": "test",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+            }
+        },
+        {
+            "label": "js",
+            "type": "shell",
+            "command": "gulp js",
+            "group": "test",
+            "problemMatcher": [],
+            "presentation": {
+                "reveal": "always",
+            }
+        }
+    ]
+}

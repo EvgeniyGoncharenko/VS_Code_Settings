@@ -1,0 +1,27 @@
+{
+    "terminal.integrated.copyOnSelection": true,
+    "terminal.integrated.lineHeight": 1.2,
+    "terminal.integrated.shell.windows": "D:\\OSPanel\\modules\\git\\bin\\bash.exe",
+    "window.zoomLevel": -0.2,
+    "workbench.editor.tabSizing": "shrink",
+    "editor.minimap.enabled": false,
+    "editor.glyphMargin": false,
+    "editor.folding": false,
+    "editor.smoothScrolling": true,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "lucida console",
+    "terminal.integrated.fontFamily": "lucida console",
+    "editor.parameterHints.cycle": true,
+    "emmet.syntaxProfiles": {
+        "html" : {
+            "filters" : "html, bem"
+          },
+          "emmet.preferences": {
+            "bem.elementSeparator":"__",
+            "bem.modifierSeparator":"--",
+            "bem.shortElementPrefix":"_"
+          }
+    },
+    "editor.fontSize": 15,
+    "terminal.integrated.fontSize": 15
+}
